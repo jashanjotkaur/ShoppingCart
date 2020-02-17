@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#9C8BC34A">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="ShoesShop.com"
+        android:textSize="100px"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="#000000"/>
+
+
+    <ImageButton
+        android:id="@+id/btn"
+        android:layout_width="1000px"
+        android:layout_height="500px"
+        android:background="@drawable/demo"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on shoes for continue shopping..."
+        android:textSize="60px"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif"
+        android:textColor="#000000"/>
+
+</LinearLayout>
